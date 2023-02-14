@@ -1,0 +1,20 @@
+{
+  "filterSpecs": true,
+  "omitFiltered": true,
+  "stepDefinitions": [
+    "cypress/steps/**/*.{js,ts}"
+  ],
+  "json": {
+    "enabled": true,
+    "output": "output/cucumber.json",
+    "formatter": "cucumber-json-formatter"
+  },
+  "messages": {
+    "enabled": true,
+    "output": "output/cucumber.ndjson"
+  },
+  "html": {
+    "enabled": true,
+    "output": "output/cucumber.html"
+  }
+}
